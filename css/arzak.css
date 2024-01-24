@@ -1681,6 +1681,22 @@ p {
   .heading-10 {
     font-size: 2rem;
   }
+
+  .car-main-img {
+    max-width: 90%;
+  }
+
+  .car-main-img.ford {
+    max-width: 100%;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+  }
+
+  .car-main-img.touran {
+    max-width: 80%;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -4095,6 +4111,14 @@ p {
 
 @media screen and (min-width: 1920px) {
   #w-node-b5301092-ad7c-f5d0-2af3-da00d6c57a7c-c689fd3d, #w-node-_0e915abe-07ce-ab2e-3cd6-67028d0849a2-c689fd3d, #w-node-_9477e38b-e8f3-0b83-f92c-590eb60f5d44-c689fd3d, #w-node-_65b84921-de36-8648-c9a6-28d9b995e528-c689fd3d, #w-node-eab3a15a-0eb4-247e-39ff-4d4107d458f8-c689fd3d, #w-node-c8346745-2562-2c03-a2d7-7bec8d4d539c-c689fd3d {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #w-node-eab3a15a-0eb4-247e-39ff-4d4107d458f8-c689fd3d, #w-node-c8346745-2562-2c03-a2d7-7bec8d4d539c-c689fd3d {
     grid-area: span 1 / span 1 / span 1 / span 1;
     align-self: center;
     justify-self: center;
